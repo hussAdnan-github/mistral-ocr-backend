@@ -13,7 +13,7 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
- 
+  
 api_key = "Y5JDeh9dvzsMRosyEVmQlBOLKxpyRsnc"
 model = "pixtral-12b-2409"
 client = Mistral(api_key=api_key)
